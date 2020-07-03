@@ -1,0 +1,17 @@
+﻿@page   "{restaurantId}"
+@model SteveToFoodSql.Pages.Restaurants.DeleteModel
+@{
+}
+
+
+<h2>Delete!</h2>
+<div class="alert alert-danger">
+    Are you sure want to delete @Model.Restaurant.Name?
+</div>
+@*<button type="button" class="btn btn-danger">Yes</button>*@
+<form method="post">
+@*<button type="button" calss="btn btn-danger">Yes</button>*@
+<button type="button" class="btn btn-danger">Yes</button>
+<a asp-page="List" class="btn btn-default">Cancel</a>
+
+</form>
