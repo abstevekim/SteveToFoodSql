@@ -4,7 +4,7 @@ This is an example code of ASP.NET Core for management my favorite restaurants.
 
 Using the SQL Server data.
 #
-If you want to run this application.
+If you want to see this application source code.
 
   step 1. Download source code
   
